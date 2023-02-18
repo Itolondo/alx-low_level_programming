@@ -19,7 +19,7 @@ int main(void)
 			d++;
 		}
 	while
-		(c <= '4') {
+		(c <= 'f') {
 			putchar(c);
 			c++;
 		}
