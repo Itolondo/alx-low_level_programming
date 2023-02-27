@@ -1,7 +1,7 @@
 #include <unistd.h>
 
 /**
- * reset_to_98 - Function taking a pointer as parameter updating the calue to 98
+ * reset_to_98 - Function taking a pointer as parameter updating  value to 98
  * @n: input
  * Return: n
  */
