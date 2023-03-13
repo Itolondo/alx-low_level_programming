@@ -1,19 +1,26 @@
 #include <stdio.h>
+#include <stdlib.h>
+
 /**
  * main - prints name of the program
  * @argc: Argument count
  * @argv: Argument vector
- * Return: Always 0
+ * Return: EXIT_SUCCESS
  */
 
 int main(int argc, char *argv[])
 {
-	int i;
+	char *program_name;
 
-	printf("%d\n", argc);
-	for (i = 0; i < argc; i++)
+	if (argc > 0)
 	{
-		printf("%s\n ", argv[i]);
+		program_name = argv[0];
 	}
-return (0);
+	else
+	{
+		program_name = "unknown";
+	}
+	printf("%s\n", program_name);
+
+	return (EXIT_SUCCESS);
 }
