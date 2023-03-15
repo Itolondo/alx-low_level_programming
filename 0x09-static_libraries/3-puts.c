@@ -2,12 +2,11 @@
 #include<stdio.h>
 
 /**
- * main - Entry point
- *
+ * _puts - Prints the statement
+ * @str: String to be printed
  * Return: Always 0 (Success)
  */
-int main(void)
+void _puts(char *str)
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+	_puts("\"Programming is like building a multilingual puzzle");
 }
